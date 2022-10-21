@@ -21,7 +21,7 @@ body
     line-height: 1.5;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 *
 {
@@ -854,6 +854,7 @@ textarea.form-control
     {
         display: block;
     }
+    .about .about-content .personal-info .info-item,
     .contact .contact-item
     {
         flex: 0 0 100%;
