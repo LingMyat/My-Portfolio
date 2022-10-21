@@ -126,7 +126,7 @@ $(document).ready(function(){
             source : 'https://github.com/LingMyat/php_blog_site_with_mysql',
         },
         {
-            name : 'Restaurant System',
+            name : 'Restaurant',
             content : `Real World Restaurant project contain CRUD, authentication, authorization, order take,serve, billing order, daily profit table and other features.`,
             image : 'Screenshot (98).png',
             languages : 'Bootstrap/jQuery(ajax)/Laravel/MySql',
