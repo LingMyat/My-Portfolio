@@ -25,6 +25,7 @@ $(document).ready(function(){
         $('#dark').removeClass('hidden');
         localStorage.setItem('theme','light')
     })
+
     $typing = '';
     $speed = 300;
     $typeWord = ['b','a','c','k','-','e','n','d',' ','d','e','v','e','l','o','p','e','r'];
@@ -43,6 +44,21 @@ $(document).ready(function(){
         $speed = 300;
         $('#typing').html($typing);
         $typingFunction();
-    },4100);
+    },4200);
     
+    let liGroup = document.getElementsByClassName('li-item');
+    for (let i = 0; i < liGroup.length; i++) {
+        liGroup[i].addEventListener('click',function(e){
+            for (let j = 0; j < liGroup.length; j++) {
+                liGroup[j].children[0].classList.remove('active');
+            }
+            e.target.classList.add('active');
+            console.log();
+        })
+        
+    }
+
+    $('.nav-toggler').click(function(){
+        $('#nav').toggleClass('navPlus ');
+    })
 })
