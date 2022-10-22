@@ -2,7 +2,7 @@ $(document).ready(function(){
     let personalInfo = [
         { key : 'Birthday',value : '4 june 2003'},
         { key : 'Age',value : '19'},
-        { key : 'Website',value : 'www.linmyataung.com'},
+        { key : 'Website',value : 'lingmyat.github.io/My-Portfolio/'},
         { key : 'Email',value : 'lingmyataung@outlook.com'},
         { key : 'Phone',value : '+959 459 192 583'},
         { key : 'Education',value : 'In matriculation'},
@@ -102,7 +102,7 @@ $(document).ready(function(){
             content : `Portfolio project JavaScript/jQuery(DOM looping data for unrepetitive codes).`,
             image : 'Screenshot (99).png',
             languages : 'HTML/CSS/JS/jQuery(main)',
-            source : '',
+            source : 'https://github.com/LingMyat/My-Portfolio',
         },
         {
             name : 'FoodElephant',

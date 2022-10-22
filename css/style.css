@@ -203,7 +203,7 @@ ul
     border: 1px solid var(--bg-black-50);
     cursor: pointer;
     position: fixed;
-    left: 30px;
+    left: 20px;
     top: 15px;
     border-radius: 5px;
     background: var(--bg-black-100);
@@ -359,7 +359,6 @@ h3.my-profession .typing
 .about .about-content .about-text h3 span
 {
     color: var(--skin-color);
-
 }
 .about .about-content .about-text p
 {
@@ -884,6 +883,14 @@ textarea.form-control
         right: 20px;
         bottom: -40px;
     }
+    .section
+    {
+        padding: 0 10px;
+    }
+    .service .container
+    {
+        padding: 30px 10px;
+    }
 }
 @media (max-width:550px)
 {
@@ -897,17 +904,35 @@ textarea.form-control
     {
         border-left: 6px solid var(--skin-color);
         border-top: 6px solid var(--skin-color);
-        left: 20px;
-        top: -40px;
     }
     
     .home .home-img::after
     {
         border-bottom: 6px solid var(--skin-color);
         border-right: 6px solid var(--skin-color);
-        right: 20px;
-        bottom: -40px;
     }
+    .about .about-content .about-text h3 span
+    {
+        display: block;
+    }
+}
+@media (max-width:430px)
+{
+        h3.my-profession
+    {
+        font-size: 26px;
+    } 
+    h3.my-profession .typing
+    {
+        color: var(--skin-color);
+    }
+}
+@media (max-width:360px)
+{
+    .section
+    {
+        padding: 0 5px;
+    }  
 }
 .navPlus 
 {
