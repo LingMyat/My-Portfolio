@@ -100,7 +100,7 @@ $(document).ready(function(){
         {
             name : 'My Portfolio',
             content : `Portfolio project JavaScript/jQuery(DOM looping data for unrepetitive codes).`,
-            image : 'Screenshot (99).png',
+            image : 'Screenshot (103).png',
             languages : 'HTML/CSS/JS/jQuery(main)',
             source : 'https://github.com/LingMyat/My-Portfolio',
         },
